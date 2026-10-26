@@ -1,0 +1,60 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 30px;
+}
+
+.arena {
+    position: relative;
+    height: 300px;
+    border: 2px dashed rgb(255, 251, 0);
+    border-radius: 15px;
+}
+
+button {
+    position: absolute;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+#Cofre1 {
+    top: 40%;
+    left: 15%;
+    background-color: rgb(255, 255, 255);
+}
+
+#Cofre2 {
+    top: 40%;
+    left: 42%;
+    background-color: rgb(255, 255, 255);
+}
+
+#Cofre3 {
+    top: 40%;
+    left: 70%;
+    background-color: rgb(255, 255, 255);
+}
+
+.premiado {
+    background-color: rgb(40, 167, 69) !important;
+    color: white;
+}
+
+.vazio {
+    background-color: rgb(220, 53, 69) !important;
+    color: white;
+}
+
+#btnJogarNovamente, #btnZerar {
+    position: static;
+    margin: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgb(255, 251, 0);
+    color: black;
+}
